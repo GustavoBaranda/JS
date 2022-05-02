@@ -108,7 +108,7 @@ const calcularTotal = () =>{
 
   let total = pedidoCliente.reduce((acumulador, iterador)=> acumulador + iterador.precio * iterador.cantidad, 0);
 
-  cajaTotal.innerHTML = `<h2>El total de compra es : $ ${total}</h2>`
+  cajaTotal.innerHTML = `<h2>El total de la compra es $ ${total}</h2>`
   container.appendChild(cajaTotal)
 }
 
